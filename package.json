@@ -1,0 +1,27 @@
+{
+  "name": "is-ship-stuck",
+  "version": "1.0.0",
+  "description": "Is the ship stuck still?",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/darcyclarke/is-ship-stuck.git"
+  },
+  "bin": {
+    "is-ship-stuck": "./cli.js"
+  },
+  "keywords": [],
+  "author": "Darcy Clarke <darcy@darcyclarke.me>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/darcyclarke/is-ship-stuck/issues"
+  },
+  "homepage": "https://github.com/darcyclarke/is-ship-stuck#readme",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.5",
+    "node-fetch": "^2.6.1"
+  }
+}
