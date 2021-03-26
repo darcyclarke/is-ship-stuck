@@ -4,7 +4,7 @@ module.exports = iss = async () => {
   try {
     const response = await fetch('https://istheshipstillstuck.com/')
     const $ = cheerio.load(await response.text())
-    const status = trim($('h1+p a').text().toLowerCase().replace('.',''))
+    const status = $('h1+p a').text().toLowerCase().replace('.','').trim()
     return status === 'yes'
   } catch (e) {
     return true
