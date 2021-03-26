@@ -13,7 +13,12 @@
   "bin": {
     "is-ship-stuck": "./cli.js"
   },
-  "keywords": [],
+  "keywords": [
+    "ship",
+    "stuck",
+    "whoops",
+    "cli"
+  ],
   "author": "Darcy Clarke <darcy@darcyclarke.me>",
   "license": "ISC",
   "bugs": {

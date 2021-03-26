@@ -3,6 +3,6 @@ module.exports = iss = async () => {
   const cheerio = require('cheerio')
   const response = await fetch('https://istheshipstillstuck.com/')
   const $ = cheerio.load(await response.text())
-  const status = $('h1+p a').text().toLowerCase().replace('.','')
+  const status = trim($('h1+p a').text().toLowerCase().replace('.',''))
   return status === 'yes'
 }

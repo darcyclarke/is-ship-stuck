@@ -3,10 +3,20 @@ Is the ship stuck still?
 
 ### Usage
 
+#### CLI
+
 ```bash
 npx is-ship-stuck
-# or
+```
+
+#### Dependency
+
+```bash
 npm i is-ship-stuck
+```
+
+```js
+const isShipStuck = require('is-ship-stuck')()
 ```
 
 Returns a boolean whether or not the ship is stuck (ref. https://istheshipstillstuck.com/)...
