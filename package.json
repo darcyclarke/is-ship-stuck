@@ -1,6 +1,6 @@
 {
   "name": "is-ship-stuck",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Is the ship stuck still?",
   "main": "index.js",
   "scripts": {
