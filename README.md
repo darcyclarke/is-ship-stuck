@@ -1,3 +1,5 @@
+🚧  **Deprecation Warning - `is-ship-stuck` is EOL/feature-complete** 🚧 
+
 # is-ship-stuck
 Is the ship stuck still?
 
